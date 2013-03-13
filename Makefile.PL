@@ -10,4 +10,9 @@ WriteMakefile(
                      'constant'     => 1.01,
                      'LWP::Simple'  => 0
                     },
+    META_MERGE => {
+        resources => {
+            repository => 'https://github.com/b10m/p5-Acme-Terror-NL',
+        },
+    },
 );
